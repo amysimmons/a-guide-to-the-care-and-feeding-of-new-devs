@@ -17,11 +17,9 @@ var Story = React.createClass({
 	if(story["Could junior developers be better supported in the workplace?"] == "No" ){
 		YesNoHide = true;
 	}
-
 	if(story["Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?"] == "" ){
 		Optional1Hide = true;
 	}
-
 	if(story["Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?"] == "" ){
 		Optional2Hide = true;
 	}
@@ -43,6 +41,14 @@ var Story = React.createClass({
 
     return (
       <div className="story-container">
+        <div className="qa-container">
+      		<span className="question">
+      			What city do you work in?
+      		</span>
+      		<span className="response">
+      			{story["What city do you work in?"]}
+      		</span>
+      	</div>
       	<div className="qa-container">
       		<span className="question">
       			How would you rate the support that you received in your first 12 months as a developer?
@@ -107,6 +113,9 @@ var Story = React.createClass({
       		<span className="response">
       			{story["Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?"]}
       		</span>
+      	</div>
+      	<div className="qa-container">
+      		<span className="byline">- Responses by a junior developer in {story["What city do you work in?"]} on {story["Timestamp"]}</span>
       	</div>
       </div>	
     )
