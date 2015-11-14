@@ -20,9 +20,7 @@ module.exports = {
     loaders: [
       {test: /\.js$/, loaders: ['react-hot', 'babel'], include: path.join(__dirname, 'src'),},
       {test: /\.css$/, loader: "style-loader!css-loader"},
-      {test: /\.scss$/, loader: 'style!css!sass'},
-      {test: /\.csv?$/, loader: 'dsv-loader'}, //will load all .csv files with dsv-loader by default
-      {test: /\.csv?$/, loader: 'dsv-file-loader'} //will load all .csv files with dsv-loader by default
+      {test: /\.scss$/, loader: 'style!css!sass'}
     ],
   }
 };

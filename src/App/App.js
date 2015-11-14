@@ -3,7 +3,6 @@ import Header from '../Header/Header';
 import StorySelectors from '../StorySelectors/StorySelectors'
 import Story from '../Story/Story'
 import Footer from '../Footer/Footer';
-import request from 'superagent';
 require("./App.css");
 
 var App = React.createClass({
@@ -20,18 +19,13 @@ var App = React.createClass({
   },
 
   loadData(){
-
-	var data = require('dsv-file!./data.csv');
-	// => should return data.csv content as json file 
-
-	console.log(data);
-	//returns an empty object
+  	return require("json!../Data/stories.json");
   },
 
   render(){
   	var storyData = this.state.storyData
-  	var	selectedStory = this.state.selectedStory
-  	var	selectedStories = this.state.selectedStories
+  	var selectedStory = this.state.selectedStory
+  	var selectedStories = this.state.selectedStories
 
     return (
       <div className="app-container">
