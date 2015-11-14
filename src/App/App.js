@@ -8,7 +8,7 @@ require("./App.css");
 var App = React.createClass({
   getInitialState(){
     let	storyData = this.loadData();
-    let selectedStory = 0;
+    let selectedStory = null;
     let selectedStories = [];
 
     return{
