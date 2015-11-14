@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import StorySelectors from '../StorySelectors/StorySelectors'
 import Story from '../Story/Story'
 import Footer from '../Footer/Footer';
+require("./App.css");
 
 var App = React.createClass({
   getInitialState(){

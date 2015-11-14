@@ -1,4 +1,5 @@
 import React from 'react';
+require("./Footer.css");
 
 var Footer = React.createClass({
 

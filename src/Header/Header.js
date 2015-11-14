@@ -1,4 +1,5 @@
 import React from 'react';
+require("./Header.css");
 
 var Header = React.createClass({
 
