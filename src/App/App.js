@@ -17,21 +17,32 @@ var App = React.createClass({
       selectedStories: selectedStories
     };
   },
-
   loadData(){
   	return require("json!../Data/stories.json");
   },
-
+  selectStory(selectedStory){
+  	console.log(selectedStory)
+  	var selectedStory = selectedStory;
+  	this.setState({selectedStory:selectedStory})
+  },
   render(){
-  	var storyData = this.state.storyData
-  	var selectedStory = this.state.selectedStory
-  	var selectedStories = this.state.selectedStories
+  	var storyData = this.state.storyData;
+  	var selectedStory = this.state.selectedStory;
+  	var selectedStories = this.state.selectedStories;
+  	var selectStory = this.selectStory;
 
     return (
       <div className="app-container">
       	<Header/>
-      	<StorySelectors/>
-      	<Story/>
+      	<StorySelectors 
+      		storyData={storyData}
+      		selectedStory={selectedStory}
+      		selectedStories={selectedStories}
+      		selectStory={selectStory}/>
+      	<Story
+      		storyData={storyData}
+      		selectedStory={selectedStory}
+      		selectedStories={selectedStories}/>
       	<Footer/>
       </div>
     )
