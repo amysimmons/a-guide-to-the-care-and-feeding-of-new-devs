@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import StorySelectors from '../StorySelectors/StorySelectors'
 import Story from '../Story/Story'
 import Footer from '../Footer/Footer';
+import request from 'superagent';
 require("./App.css");
 
 var App = React.createClass({
@@ -19,14 +20,12 @@ var App = React.createClass({
   },
 
   loadData(){
-  	var d3dsv = require('d3-dsv');
 
-var storyData = require('dsv?delimiter=,!../Data/storyData.csv');
+	var data = require('dsv-file!./data.csv');
+	// => should return data.csv content as json file 
 
-  	debugger
-
-  	//let storyData = require('dsv-file!../Data/storyData.csv');
-  	//return storyData;
+	console.log(data);
+	//returns an empty object
   },
 
   render(){

@@ -48,6 +48,8 @@
     "loader-utils": "^0.2.11",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
-    "react-fontawesome": "^0.3.3"
+    "react-fontawesome": "^0.3.3",
+    "react-superagent": "^1.1.1",
+    "superagent": "^1.4.0"
   }
 }
