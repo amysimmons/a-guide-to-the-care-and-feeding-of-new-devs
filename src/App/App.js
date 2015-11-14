@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
+import Recommendations from '../Recommendations/Recommendations'
+import Findings from '../Findings/Findings'
 import StorySelectors from '../StorySelectors/StorySelectors'
 import Story from '../Story/Story'
 import Footer from '../Footer/Footer';
@@ -34,6 +36,8 @@ var App = React.createClass({
     return (
       <div className="app-container">
       	<Header/>
+        <Findings/>
+        <Recommendations/>
       	<StorySelectors 
       		storyData={storyData}
       		selectedStory={selectedStory}
