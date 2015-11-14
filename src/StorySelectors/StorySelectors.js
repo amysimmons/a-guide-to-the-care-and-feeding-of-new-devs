@@ -6,9 +6,12 @@ var Selector = React.createClass({
 	handleClick(e){
 		this.props.selectStory(this.props.story);
 	},
+
 	render(){
 		return (
-			<span onClick={this.handleClick}>{this.props.value}</span>
+			<span onClick={this.handleClick}>
+				{this.props.value}
+			</span>
 		)
 	}
 });
