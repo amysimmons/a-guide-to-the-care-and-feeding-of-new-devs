@@ -42,6 +42,10 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "d3-dsv": "^0.1.9",
+    "dsv-file-loader": "^0.1.1",
+    "dsv-loader": "^1.0.0",
+    "loader-utils": "^0.2.11",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
     "react-fontawesome": "^0.3.3"

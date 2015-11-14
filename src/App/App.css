@@ -1,5 +1,4 @@
 .app-container {
-	background-color: blue;
-	width: 100px;
-	height: 100px;
+	font-family: 'helvetica';
+	width: 100%
 }
