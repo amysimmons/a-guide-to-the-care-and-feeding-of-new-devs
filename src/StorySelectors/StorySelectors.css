@@ -14,7 +14,10 @@
 
 .story-selectors-container .fa {
 	font-size: 3em;
-	margin: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%; 
+	padding-left: 1%;
 }
 
 .story-selectors-container .fa.selected{
@@ -27,5 +30,5 @@
 
 .unread-story-count {
 	width: 100%;
-	text-align: right;
+	padding-left: 1%;
 }
