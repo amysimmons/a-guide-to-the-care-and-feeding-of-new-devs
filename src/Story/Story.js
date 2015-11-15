@@ -49,6 +49,22 @@ var Story = React.createClass({
       			{story["What city do you work in?"]}
       		</span>
       	</div>
+        <div className="qa-container">
+          <span className="question">
+           How long have you been a developer for?
+          </span>
+          <span className="response">
+            {story["How long have you been a developer for?"]}
+          </span>
+        </div>
+        <div className="qa-container">
+          <span className="question">
+           Would you classify yourself as a junior, mid-level or senior developer?
+          </span>
+          <span className="response">
+            {story["Would you classify yourself as a junior, mid-level or senior developer?"]}
+          </span>
+        </div>
       	<div className="qa-container">
       		<span className="question">
       			How would you rate the support that you received in your first 12 months as a developer?
@@ -113,9 +129,6 @@ var Story = React.createClass({
       		<span className="response">
       			{story["Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?"]}
       		</span>
-      	</div>
-      	<div className="qa-container byline-container">
-      		<span className="byline">- Responses by a junior developer in {story["What city do you work in?"]} on {story["Timestamp"]}</span>
       	</div>
       </div>	
     )
