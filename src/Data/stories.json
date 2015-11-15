@@ -12,7 +12,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"One-on-one mentoring.",
     "What's something technical you are embarrassed to admit you don't know?":"Pretty much everything. I specifically remember POCOs, DTOs.",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"Had to pair with a senior who tested me rather than helped me.",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Days where I get mentoring and then work with another junior on code together."
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Days where I get mentoring and then work with another junior on code together.",
+    "Gender":"M"
   },
   {
     "Timestamp":"11/5/2015 14:31",
@@ -27,7 +28,24 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"Time to research and understand technologies",
     "What's something technical you are embarrassed to admit you don't know?":"Postgress. Full Stop.",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"In the first week I went into panic mode because I was trying to do the job at 100% but the reality of my skillbase is that I know maybe 20-30%. I was embarrased to ask questions I deemed simple but were outside of my knowledgebase. I was worried to ask questions that I assumed I was 'supposed' to know, but over time I've gotten past this and just ask the damn question if my research is coming up empty.",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"I spent about two weeks putting together a feature that replaced a cornerstone feature of our app. It was something like 1500 lines of code over something like 40 files. It was challenging, but didn't require much hand holding. It was so involved that it required a manual restart to implement it. After it went in, the best part was, it all worked. \\o/"
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"I spent about two weeks putting together a feature that replaced a cornerstone feature of our app. It was something like 1500 lines of code over something like 40 files. It was challenging, but didn't require much hand holding. It was so involved that it required a manual restart to implement it. After it went in, the best part was, it all worked. \\o/",
+    "Gender":"M"
+  },
+  {
+    "Timestamp":"11/5/2015 14:35",
+    "What is your name?":"",
+    "What city do you work in?":"Sydney",
+    "How long have you been a developer for?":"More than 12 months",
+    "Would you classify yourself as a junior, mid-level or senior developer?":"Mid-level",
+    "How would you rate the support that you received in your first 12 months as a developer?":2,
+    "What three words best describe the emotions you felt in your first 12 months as a developer?":"I need help",
+    "Could junior developers be better supported in the workplace?":"Yes",
+    "If you answered yes to the above, how?":"Help me when I didn't understand the documentations.",
+    "What one thing would help you progress faster in your first 12 months as a developer?":"Practicing after work like what Amy is trying to set up.",
+    "What's something technical you are embarrassed to admit you don't know?":"What's a closure?",
+    "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"It was a warm summer evening, I was unable to deploy my app into a docker container, mainly due to my lack of deployment skills. I read a forum post asking the version of my Ubuntu and I may have to update it. So that's what I did... Server updated... and crashed. It's still not usable to this day.",
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"I'd say when I was let go. Free of my contract.",
+    "Gender":"U"
   },
   {
     "Timestamp":"11/5/2015 15:10",
@@ -42,7 +60,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"pair programming\nfun code hours",
     "What's something technical you are embarrassed to admit you don't know?":"what is functional programming, oop, promises, data structures",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":""
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"",
+    "Gender":"U"
   },
   {
     "Timestamp":"11/5/2015 15:24",
@@ -57,7 +76,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"Good tutor who has time to answer my questions.",
     "What's something technical you are embarrassed to admit you don't know?":"I always ask or google questions I don't know. Sometimes I asked before because no one can know or remember everything. You would learn nothing if you feel embarrassed to ask questions.",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"I did something which led to company laptop broken down and I didn't know why that was. I lost some work I did on that day which I didn't push to server.",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"The first I started to share my ideas or solutions to questions. Most of them maybe inappropriate but I felt I was part of team as a giver no only a receiver. And my boss hired me because of that."
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"The first I started to share my ideas or solutions to questions. Most of them maybe inappropriate but I felt I was part of team as a giver no only a receiver. And my boss hired me because of that.",
+    "Gender":"M"
   },
   {
     "Timestamp":"11/5/2015 17:07",
@@ -72,7 +92,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"Buddy program",
     "What's something technical you are embarrassed to admit you don't know?":"confused with basic concepts / the \"keywords\" used for that language \n",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"taking nearly double the time what other developers would take less time for",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"good coaching and support from peers to improve and be excellent"
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"good coaching and support from peers to improve and be excellent",
+    "Gender":"F"
   },
   {
     "Timestamp":"11/5/2015 17:51",
@@ -87,7 +108,24 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"Guidance and working on a variety of projects and technologies.",
     "What's something technical you are embarrassed to admit you don't know?":"ASP.Net session states",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":""
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"",
+    "Gender":"U"
+  },
+  {
+    "Timestamp":"11/6/2015 11:10",
+    "What is your name?":"",
+    "What city do you work in?":"Melbourne",
+    "How long have you been a developer for?":"More than 12 months",
+    "Would you classify yourself as a junior, mid-level or senior developer?":"Senior",
+    "How would you rate the support that you received in your first 12 months as a developer?":3,
+    "What three words best describe the emotions you felt in your first 12 months as a developer?":"panic inadequacy imposter",
+    "Could junior developers be better supported in the workplace?":"Yes",
+    "If you answered yes to the above, how?":"Training, pairing, regular checks",
+    "What one thing would help you progress faster in your first 12 months as a developer?":"enforced deep training before commencing tasks, still performing tasks, but learning around the topic in detail before commencing the task.",
+    "What's something technical you are embarrassed to admit you don't know?":"Promises",
+    "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"Long hours, high pressure, all responsibility. Bad DB command gone awry.",
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Getting paid",
+    "Gender":"U"
   },
   {
     "Timestamp":"11/8/2015 11:50",
@@ -102,7 +140,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"Being given hints of how to solve a problem but not the out right solution",
     "What's something technical you are embarrassed to admit you don't know?":"Never used and API only a vague idea of what they are",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"I went to rails camp. It was great geeking out with people. I had only just started learning but got a little website to do page up and gave a presentation on it at the end. It was challenging and rewarding, working with different people and successfully building something, even small"
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"I went to rails camp. It was great geeking out with people. I had only just started learning but got a little website to do page up and gave a presentation on it at the end. It was challenging and rewarding, working with different people and successfully building something, even small",
+    "Gender":"F"
   },
   {
     "Timestamp":"11/8/2015 12:06",
@@ -117,7 +156,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"Code reviews!!!!",
     "What's something technical you are embarrassed to admit you don't know?":"Not really sure, my biggest problem is the unknown unknowns.",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"Worst day was when my work forgot that I was a developer, and had to spend a day in Photoshop and not in Emacs!!",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Launch day of one of my \"big name\" campaigns. \"I made this\" is such a good feeling!"
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Launch day of one of my \"big name\" campaigns. \"I made this\" is such a good feeling!",
+    "Gender":"F"
   },
   {
     "Timestamp":"11/8/2015 12:23",
@@ -132,7 +172,24 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"If I kept a reflection journal, perhaps I would retain more of what I've learned.",
     "What's something technical you are embarrassed to admit you don't know?":"SQL and regex - it's not that I don't know, it's just that I seldom use them.",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":""
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"",
+    "Gender":"M"
+  },
+  {
+    "Timestamp":"11/9/2015 18:21",
+    "What is your name?":"",
+    "What city do you work in?":"Sydney",
+    "How long have you been a developer for?":"More than 12 months",
+    "Would you classify yourself as a junior, mid-level or senior developer?":"Senior",
+    "How would you rate the support that you received in your first 12 months as a developer?":4,
+    "What three words best describe the emotions you felt in your first 12 months as a developer?":"Overwhelmed\nExcited\nUncertain",
+    "Could junior developers be better supported in the workplace?":"Yes",
+    "If you answered yes to the above, how?":"Buddy in team for the first week or two to pair program and show the ropes",
+    "What one thing would help you progress faster in your first 12 months as a developer?":"Knowing about the imposter syndrome\nBalance between time spent figuring a problem out vs asking for help\nMentoring and guidance",
+    "What's something technical you are embarrassed to admit you don't know?":"Concurrency (know the theory, but minimal practical experience)",
+    "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"",
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Majority of team was away, so built, deployed and released a new version of the product to the public!",
+    "Gender":"U"
   },
   {
     "Timestamp":"11/10/2015 10:07",
@@ -147,7 +204,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"Daily/Weekly one-on-one sessions going over language and programming fundamentals.",
     "What's something technical you are embarrassed to admit you don't know?":"95% of the javascript language",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"Bringing down the production server of a very large client for a few hours... and then doing it again later that week.",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"No one specific day. Those days when you have a series of little wins all day ??"
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"No one specific day. Those days when you have a series of little wins all day ??",
+    "Gender":"U"
   },
   {
     "Timestamp":"11/10/2015 15:56",
@@ -162,7 +220,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"As mentioned above, more recommended reading and regular tutorials on what the different pieces that make up the product (platform) are so we're not just writing some code, but truly understanding how it's interacting with the product as a whole.",
     "What's something technical you are embarrassed to admit you don't know?":"I don't really know what a lot of the things I type into the console, such as SSH, mean.",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"I had been trying to understand angular for a while, but it all just seemed like magic to me. I felt like every time I did something with it it was completely different to anything I'd done before. One day a senior on my team said in a really frustrated voice, \"I don't understand why you still don't get this!\" I felt really stupid and somewhat scared for my job. After he calmed down and apologised to me he explained some of the concepts to me that I didn't understand again and suddenly I got them. It was explained using code that I'd already written at school and suddenly it seemed so simple. I felt pretty silly once more, but at least I got it. It was the worst day, but also one of the best days too.",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Can I say the best week instead? This past week has been pretty great, I have to say. I have come into work each day and understood every task I've needed to do and have felt like I have finally been making a real contribution to team work."
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Can I say the best week instead? This past week has been pretty great, I have to say. I have come into work each day and understood every task I've needed to do and have felt like I have finally been making a real contribution to team work.",
+    "Gender":"F"
   },
   {
     "Timestamp":"11/10/2015 22:20",
@@ -177,7 +236,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"More code reviews is key for me. This would make sure I am not developing any bad habits",
     "What's something technical you are embarrassed to admit you don't know?":"The details of how promises work, i'm used to callbacks but not promises",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"Committing private code to a public repo. This was super embarrassing when the client found out!",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Building out my first application since being a professional developer and everyone in the team being really happy with it"
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Building out my first application since being a professional developer and everyone in the team being really happy with it",
+    "Gender":"M"
   },
   {
     "Timestamp":"11/12/2015 08:15",
@@ -192,7 +252,8 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"More hours in the day to learn... If only!\n\nIn reality I think structuring my own self learning better outside of the workplace.",
     "What's something technical you are embarrassed to admit you don't know?":"How to rebase with Git",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"On the whole they have been amazing and it's true it's a bit of a roller coaster but you have to have to have the lows to appreciate the highs. Also it's good to celebrate the small wins!!!!",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Making my first change in the live production database and actually understanding what I was doing and not breaking anything. I'd spent the time poking it in my local dev environment and made sure I was comfortable with the task and what needed to be done, as well as giving the database the respect it deserves."
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Making my first change in the live production database and actually understanding what I was doing and not breaking anything. I'd spent the time poking it in my local dev environment and made sure I was comfortable with the task and what needed to be done, as well as giving the database the respect it deserves.",
+    "Gender":"U"
   },
   {
     "Timestamp":"11/12/2015 09:44",
@@ -207,7 +268,24 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"Better understanding of my role",
     "What's something technical you are embarrassed to admit you don't know?":"I don't know both of them.",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"Not sure",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Not enough experience yet"
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Not enough experience yet",
+    "Gender":"M"
+  },
+  {
+    "Timestamp":"11/14/2015 01:05",
+    "What is your name?":"(':",
+    "What city do you work in?":"Sydney",
+    "How long have you been a developer for?":"More than 12 months",
+    "Would you classify yourself as a junior, mid-level or senior developer?":"Senior",
+    "How would you rate the support that you received in your first 12 months as a developer?":3,
+    "What three words best describe the emotions you felt in your first 12 months as a developer?":"It's pretty shit, people underrate you, underpay you and often often don't have a clue what to expect because you're the first junior they're working with. In general I've found that working extra hours is the norm at start ups, but especially if you're a junior because you're young and got nowhere to turn. Exploitation as a norm is bad.\n\nMentoring and pairing is considered second rate; everyone in the market is looking for senior developers. Juniors that are just starting out are often in a rough place. The best way to approach the market, it seems, is to be arrogant and talk yourself into a job. Being white and male definitely helps with that.\n\nI get paid senior wages now, even though I wrote my first for loop 2 years ago. I worked hard, but also got very lucky. The market for juniors as it is, is fucked.",
+    "Could junior developers be better supported in the workplace?":"Yes",
+    "If you answered yes to the above, how?":"yeah, as a first: it'd be nice if every dev is treated equally. Value growth over results. Involve Juniors in thinking problems, and recovering from mistakes. Don't expect them to maintain legacy systems, but instead let them write new (well scoped) projects. Encourage them to learn, don't punish mistakes but show how it's done. Create value and attachment rather than pushing them towards a burn out.",
+    "What one thing would help you progress faster in your first 12 months as a developer?":"Well, the first 12 months as a dev I was in school trying to learn stuff. In general classes in school are pretty bad, so hey.\n\nIn the first 12 months as a professional dev (had my anniversary only a few weeks ago) it would've been nice to have more skilled people around me. People from whom I can learn. People that are equally excited about things, but show are willing to reason about the trade offs. People who don't punish a different opinion, but instead embrace different thinking. It'd be nice if people in tech were, well, nice.",
+    "What's something technical you are embarrassed to admit you don't know?":"My regexes are rusty; I'm pretty bad at using capture groups haha. Also: I wouldn't know how to setup a DNS server... which I had to do today, but could reason my way out of not doing. Pfooooo.",
+    "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"Ohey, that one's good. Either the time the designer came over and pulled my headphones off my head, grabbed my arm and screamed at me... or the time when the project lead screamed at the whole team, lashed out towards the easiest target on the team and got him into tears.\n\nYeah, it's not fun to join dysfunctional teams when you feel that if you leave it'll be a giant stain on your career options (because people are connected with every other company in the city.) Without a name you won't survive that.",
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"Well, there's two days:\n\n1. Probably the first talk I gave. People were amazed by some of the architecture foo you can pull off with npm's userland packages. I felt great, and decided I wanted to share more knowledge with people at meetups... more than \"hey, check out this framework I tried\".\n\n2. The first deploy I made of a native desktop app I built. It was my first \"finished\" application ever. All systems were operational including UI (transitions!), architecture and reverse-engineered API client. It felt good. I felt I could make things, I felt empowered. I knew that if I kept going this way I would eventually make it, and eventually I did.",  
+    "Gender":"U"
   },
   {
     "Timestamp":"11/14/2015 10:05",
@@ -222,6 +300,39 @@
     "What one thing would help you progress faster in your first 12 months as a developer?":"A MENTOR! - - I wish more than anything I had a mentor. And a bunch of kittens.",
     "What's something technical you are embarrassed to admit you don't know?":"OOP someone please explain that in layman terms please lol",
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"The worst day no. but I have always been a person who's never seen sexism in a workplace and didn't understand all the fuss. The worst moment for me was when I realised I was a woman in tech, and I was being treated differently. But I won't get into that now. \nBut worst moment === When you know you're the woman in the room.",
-    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"The best technical day was when programming clicked. I wrote a complete creative project from scratch in a day without looking for any example of how someone else did it. MY COPY AND PASTE DAYS WERE OVER! ha.\n\nBut the best day was when my manager pulled me aside, had a catch up with me and checked how I was doing, made sure I was alright, and encouraged me to not be that hard on myself. He showed me I was valued even as a junior. - to me that was the best day because it gave me what I needed to keep going, without that I would probably have never made it to the day programming clicked for me."
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"The best technical day was when programming clicked. I wrote a complete creative project from scratch in a day without looking for any example of how someone else did it. MY COPY AND PASTE DAYS WERE OVER! ha.\n\nBut the best day was when my manager pulled me aside, had a catch up with me and checked how I was doing, made sure I was alright, and encouraged me to not be that hard on myself. He showed me I was valued even as a junior. - to me that was the best day because it gave me what I needed to keep going, without that I would probably have never made it to the day programming clicked for me.",
+    "Gender":"F"
+  },
+  {
+    "Timestamp": "11/14/2015 19:12",
+    "What is your name?": "Charlie",
+    "What city do you work in?": "Sydney",
+    "How long have you been a developer for?": "More than 12 months",
+    "Would you classify yourself as a junior, mid-level or senior developer?": "Junior",
+    "How would you rate the support that you received in your first 12 months as a developer?": 9,
+    "What three words best describe the emotions you felt in your first 12 months as a developer?": "Excited, Overwhelmed, lost",
+    "Could junior developers be better supported in the workplace?": "Yes",
+    "If you answered yes to the above, how?": "Not assume that people have the same standard knowledge. People come from different backgrounds, and assuming that they know certain things can make juniors feel ashamed of not knowing.\nProvide guidance and support. Have regular catch ups to check if juniors feel supported enough, if they're happy, etc...",
+    "What one thing would help you progress faster in your first 12 months as a developer?": "It would have been helpful to me if my team knew my background before I started my first project. As they assumed I was coming from a CS degree, they assume the amount of knowledge I had and when pairing, it made me feel uncomfortable to ask questions and probably slowed down my progress.\nOnce people know more about you, it makes things way easier.",
+    "What's something technical you are embarrassed to admit you don't know?": "I'm pretty embarrassed when I realise that I don't really understand how things work but I just manage to make them work :/\nI am very bad at explaining concepts and knowing the technical terms and I feel really ashamed when I have to explain something to someone :(",
+    "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?": "I can't recount a day in particular, but I'm really hard on myself and it happened that I ended up wanting to cry because I felt really stupid for not knowing something.",
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?": "Same , I can't recount a special day but I remember how happy I felt when I realised I wasn't that bad, I could finish stories by myself, learn fast  and feel like I was really part of the team :)",
+    "Gender":"F"
+  },
+  {
+    "Timestamp": "11/15/2015 15:46",
+    "What is your name?": "Andrew Grimm",
+    "What city do you work in?": "Sydney",
+    "How long have you been a developer for?": "More than 12 months",
+    "Would you classify yourself as a junior, mid-level or senior developer?": "Junior",
+    "How would you rate the support that you received in your first 12 months as a developer?": 7,
+    "What three words best describe the emotions you felt in your first 12 months as a developer?": "Frustration\nInsecurity\nInterest",
+    "Could junior developers be better supported in the workplace?": "Yes",
+    "If you answered yes to the above, how?": "Not sure",
+    "What one thing would help you progress faster in your first 12 months as a developer?": "All applications using the current version of Rails/RSpec/other libraries.",
+    "What's something technical you are embarrassed to admit you don't know?": "Can't recall any problems on this front",
+    "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"",
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"",
+    "Gender":"M"
   }
 ]
