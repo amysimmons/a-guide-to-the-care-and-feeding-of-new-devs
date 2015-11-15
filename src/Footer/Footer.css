@@ -1,0 +1,33 @@
+.footer {
+	width: 80%;
+	background-color: #BF0A2F;
+	color: #F2F2F2;
+	padding: 10% 10%;
+}
+
+.footer-about, .footer-contact {
+	width: 100%;
+	display: inline-block;
+}
+
+.footer-about {
+	padding-bottom: 10%;
+}
+
+.footer h2 {
+	color: #F2F2F2;
+	font-size: 4em;
+	margin: 0;
+	padding: 1%;
+}
+
+.footer-about p {
+	font-size: 1.5em;
+	padding: 1%;
+}
+
+.footer .fa {
+	color: #F2F2F2;
+	font-size: 4em;
+	margin: 2%;
+}
