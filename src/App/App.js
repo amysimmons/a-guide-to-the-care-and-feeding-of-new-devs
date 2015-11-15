@@ -10,7 +10,7 @@ var App = React.createClass({
   getInitialState(){
     let	storyData = this.loadData();
     let selectedStory = null;
-    let selectedStories = [];
+    let selectedStories = 0;
 
     return{
       storyData: storyData,
@@ -24,7 +24,10 @@ var App = React.createClass({
   selectStory(selectedStory){
   	console.log(selectedStory)
   	var selectedStory = selectedStory;
-  	this.setState({selectedStory:selectedStory})
+    var selectedStories = this.state.selectedStories;
+    selectedStories++;
+    selectedStory["selected"] = true;
+  	this.setState({selectedStory:selectedStory, selectedStories:selectedStories});
   },
   render(){
   	var storyData = this.state.storyData;

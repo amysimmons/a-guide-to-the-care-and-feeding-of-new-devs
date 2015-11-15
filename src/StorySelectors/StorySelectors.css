@@ -17,6 +17,15 @@
 	margin: 2%;
 }
 
+.story-selectors-container .fa.selected{
+	color: #B7F2E1;
+}
+
 .story-selectors-container .fa:hover {
 	color: #B7F2E1;
+}
+
+.unread-story-count {
+	width: 100%;
+	text-align: right;
 }

@@ -2,15 +2,21 @@ import React from 'react';
 import Story from '../Story/Story'
 require("./StorySelectors.css");
 
+
+
 var Selector = React.createClass({
 	handleClick(e){
 		this.props.selectStory(this.props.story);
 	},
-
 	render(){
+		var userIconClasses = "fa fa-user ";
+		if(this.props.story["selected"]){
+			userIconClasses += "selected";
+		}
+
 		return (
 			<span onClick={this.handleClick}>
-				<i className="fa fa-user"></i>
+				<i className={userIconClasses}></i>
 			</span>
 		)
 	}
@@ -38,6 +44,7 @@ var StorySelectors = React.createClass({
       	<div className="story-selectors-container">
       		{selectors}
       	</div>
+      	<div className="unread-story-count">{this.props.storyData.length - this.props.selectedStories} unread stories</div>
       	<Story
       	storyData={this.props.storyData}
       	selectedStory={this.props.selectedStory}
