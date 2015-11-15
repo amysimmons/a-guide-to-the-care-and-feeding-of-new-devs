@@ -1,7 +1,5 @@
 import React from 'react';
-require
 require("./StorySelectors.css");
-var FontAwesome = require('react-fontawesome');
 
 var Selector = React.createClass({
 	handleClick(e){
@@ -11,14 +9,7 @@ var Selector = React.createClass({
 	render(){
 		return (
 			<span onClick={this.handleClick}>
-				{this.props.value}
-				<FontAwesome
-        className='super-crazy-colors'
-        name='rocket'
-        size='2x'
-        spin
-        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-      />
+				<i className="fa fa-user"></i>
 			</span>
 		)
 	}
