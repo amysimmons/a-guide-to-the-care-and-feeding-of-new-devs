@@ -48,22 +48,26 @@ var Findings = React.createClass({
   },
   findingOneVisual(){
     var averageSupportRating = this.calculateAverageSupportRating();
-    var stars = [];
+    var starsHighlight = [];
+    var starsNoHighlight = [];
     for (var i = 0; i < Math.floor(averageSupportRating); i++) {
-      stars.push(<i key={i} className={"fa fa-star highlight"}></i>)
+      starsHighlight.push(<i key={i} className={"fa fa-star highlight"}></i>)
     };
     for (var x = Math.floor(averageSupportRating); x < 10; x++) {
-      stars.push(<i key={x} className={"fa fa-star"}></i>)
+      starsNoHighlight.push(<i key={x} className={"fa fa-star"}></i>)
     };
     return (
-      <div>{stars}</div>
+      <div className="stars">
+        <div className="highlighted-stars">{starsHighlight}</div>
+        <div className="non-highlighted-stars">{starsNoHighlight}</div>
+      </div>
     )
   },
   findingOneDescription(){
     var averageSupportRating = this.calculateAverageSupportRating();
     return (
       <div>
-        <p>Developers rated their level of support in their first 12 months as {averageSupportRating.toString()}/10.</p>
+        <p>Developers rated their level of support in their first 12 months as {Math.floor(averageSupportRating).toString()}/10.</p>
       </div>
     )
   },
