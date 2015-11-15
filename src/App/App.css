@@ -1,4 +1,10 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .app-container {
 	font-family: 'helvetica';
-	width: 100%
+	width: 100%;
+	margin: 0;
 }

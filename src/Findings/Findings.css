@@ -1,0 +1,28 @@
+.findings-container {
+	width: 80%;
+	background-color: #BF0A2F;
+	color: #F2F2F2;
+	padding: 10% 10%;
+}
+
+.findings-heading {
+	background-color: #F2F2F2;
+}
+
+.findings-heading h2 {
+	color: #BF0A2F;
+	font-size: 5em;
+	margin: 0;
+	padding: 1%;
+}
+
+.finding {
+	width: 33.33%;
+	height: 300px;
+	background-color: #F2F2F2;
+	display: inline-block;
+}
+
+/*.finding:hover{
+	background-color: #1DBBB4;
+}*/

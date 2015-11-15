@@ -1,4 +1,5 @@
 import React from 'react';
+import Story from '../Story/Story'
 require("./StorySelectors.css");
 
 var Selector = React.createClass({
@@ -30,8 +31,17 @@ var StorySelectors = React.createClass({
 	  	)
 	};
     return (
-      <div className="story-selectors-container">
-      	{selectors}
+      <div className="stories-container">
+        <div className="stories-heading">
+          <h2>Stories</h2>
+        </div>
+      	<div className="story-selectors-container">
+      		{selectors}
+      	</div>
+      	<Story
+      	storyData={this.props.storyData}
+      	selectedStory={this.props.selectedStory}
+      	selectedStories={this.props.selectedStories}/>
       </div>
     )
   }

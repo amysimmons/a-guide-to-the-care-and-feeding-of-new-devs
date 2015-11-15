@@ -3,7 +3,6 @@ import Header from '../Header/Header';
 import Recommendations from '../Recommendations/Recommendations'
 import Findings from '../Findings/Findings'
 import StorySelectors from '../StorySelectors/StorySelectors'
-import Story from '../Story/Story'
 import Footer from '../Footer/Footer';
 require("./App.css");
 
@@ -43,10 +42,6 @@ var App = React.createClass({
       		selectedStory={selectedStory}
       		selectedStories={selectedStories}
       		selectStory={selectStory}/>
-      	<Story
-      		storyData={storyData}
-      		selectedStory={selectedStory}
-      		selectedStories={selectedStories}/>
       	<Footer/>
       </div>
     )

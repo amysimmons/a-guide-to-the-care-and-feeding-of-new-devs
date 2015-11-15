@@ -1,0 +1,15 @@
+.header {
+	width: 80%;
+	background-color: #1DBBB4;
+	color: #F2F2F2;
+	padding: 10% 10%;
+}
+
+.title {
+	font-size: 8em;
+	margin: 0;
+}
+
+.byline {
+	text-align: right;
+}

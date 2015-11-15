@@ -114,7 +114,7 @@ var Story = React.createClass({
       			{story["Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?"]}
       		</span>
       	</div>
-      	<div className="qa-container">
+      	<div className="qa-container byline-container">
       		<span className="byline">- Responses by a junior developer in {story["What city do you work in?"]} on {story["Timestamp"]}</span>
       	</div>
       </div>	

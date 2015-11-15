@@ -1,0 +1,28 @@
+.recommendations-container {
+	width: 80%;
+	background-color: #F2F2F2;
+	color: #BF0A2F;
+	padding: 10% 10%;
+}
+
+.recommendations-heading {
+	background-color: #BF0A2F;
+}
+
+.recommendations-heading h2 {
+	color: #F2F2F2;
+	font-size: 5em;
+	margin: 0;
+	padding: 1%;
+}
+
+.recommendation {
+	width: 33.33%;
+	height: 300px;
+	background-color: #BF0A2F;
+	display: inline-block;
+}
+
+/*.recommendation:hover{
+	background-color: #1DBBB4;
+}*/

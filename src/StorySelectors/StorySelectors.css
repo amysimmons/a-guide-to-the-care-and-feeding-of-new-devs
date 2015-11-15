@@ -1,13 +1,24 @@
-.fa {
-	font-size: 20px;
-		width:100px;
-	height:100px;
+.stories-container {
+	width: 80%;
+	background-color: #1DBBB4;
+	color: #F2F2F2;
+	padding: 10% 10%;
 }
-.male {
-	color: blue;
-	width: 100px;
-	}
-.fa-male{
-	width:100px;
-	height:100px;
+
+.stories-heading h2 {
+	color: #F2F2F2;
+	font-size: 5em;
+	margin: 0;
+	padding: 1%;
 }
+
+.story-selectors-container .fa {
+	font-size: 3em;
+	margin: 2%;
+}
+
+.story-selectors-container .fa:hover {
+	color: #B7F2E1;
+}
+
+
