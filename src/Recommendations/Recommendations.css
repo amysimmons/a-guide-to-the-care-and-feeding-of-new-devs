@@ -6,7 +6,7 @@
 }
 
 .recommendations-heading {
-	background-color: #BF0A2F;
+	background-color: #EFBD2F;
 }
 
 .recommendations-heading h2 {
@@ -19,7 +19,7 @@
 .recommendation {
 	width: 33.33%;
 	height: 300px;
-	background-color: #BF0A2F;
+	background-color: #EFBD2F;
 	display: inline-block;
 }
 
