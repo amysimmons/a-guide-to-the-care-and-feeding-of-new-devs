@@ -1,28 +1,42 @@
-.footer {
+.footer-about-container {
 	width: 80%;
 	background-color: #BF0A2F;
 	color: #F2F2F2;
 	padding: 10% 10%;
 }
 
-.footer-about, .footer-contact {
-	width: 100%;
-	display: inline-block;
+.footer-about-heading {
+	background-color: #F2F2F2;
 }
 
-.footer-about {
-	padding-bottom: 10%;
-}
-
-.footer h2 {
-	color: #F2F2F2;
-	font-size: 4em;
+.footer-about-heading h2 {
+	color: #BF0A2F;
+	font-size: 5em;
 	margin: 0;
 	padding: 1%;
 }
 
-.footer-about p {
+.footer-about-container p {
 	font-size: 1.5em;
+	padding: 1%;
+	color: #BF0A2F;
+}
+
+.footer-contact-container {
+	width: 80%;
+	background-color: #F2F2F2;
+	color: #BF0A2F;
+	padding: 10% 10%;
+}
+
+.footer-contact-heading {
+	background-color: #BF0A2F;
+}
+
+.footer-contact-heading h2 {
+	color: #F2F2F2;
+	font-size: 5em;
+	margin: 0;
 	padding: 1%;
 }
 
