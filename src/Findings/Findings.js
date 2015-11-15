@@ -5,7 +5,7 @@ var Finding = React.createClass({
   render(){
     return (
       <div className="finding">
-      	<span className="data">{this.props.data}</span>
+      	<span className="visual">{this.props.visual}</span>
       	<span className="description">{this.props.description}</span>
       </div>
     )
@@ -46,17 +46,44 @@ var Findings = React.createClass({
     var percentage = (yesResponses/storyData.length)*100
     return percentage.toFixed(2);
   },
-  render(){
+  findingOneVisual(){
     var averageSupportRating = this.calculateAverageSupportRating();
+    var stars = [];
+    for (var i = 0; i < Math.floor(averageSupportRating); i++) {
+      stars.push(<i key={i} className={"fa fa-star highlight"}></i>)
+    };
+    for (var x = Math.floor(averageSupportRating); x < 10; x++) {
+      stars.push(<i key={x} className={"fa fa-star"}></i>)
+    };
+    return (
+      <div>{stars}</div>
+    )
+  },
+  findingOneDescription(){
+    var averageSupportRating = this.calculateAverageSupportRating();
+    return (
+      <div>
+        <p>Developers rated their level of support in their first 12 months as {averageSupportRating.toString()}/10.</p>
+      </div>
+    )
+  },
+
+  findingtwoVisual(){
     var betterSupportedPercentage = this.calculatePercentageBetterSupported();
+
+  },
+  render(){
+    var findingOneVisual = this.findingOneVisual();
+    var findingOneDescription = this.findingOneDescription();
+    var findingtwoVisual = this.findingtwoVisual();
 
     return (
       <div className="findings-container">
       	<div className="findings-heading">
           <h2>Findings</h2>
         </div>
-        <Finding data={averageSupportRating}/>
-        <Finding data={betterSupportedPercentage}/>
+        <Finding visual={findingOneVisual} description={findingOneDescription}/>
+        <Finding visual={findingtwoVisual}/>
         <Finding/>
       </div>
     )

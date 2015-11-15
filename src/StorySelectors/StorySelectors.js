@@ -2,21 +2,32 @@ import React from 'react';
 import Story from '../Story/Story'
 require("./StorySelectors.css");
 
-
-
 var Selector = React.createClass({
 	handleClick(e){
 		this.props.selectStory(this.props.story);
 	},
-	render(){
-		var userIconClasses = "fa fa-user ";
+	setSelectorIconClasses(){
+		var userIconClasses = "";
+		switch(this.props.story["Gender"]){
+			case "M":
+        		userIconClasses += "fa fa-male ";
+        		break;
+    		case "F":
+        		userIconClasses += "fa fa-female ";
+        		break;
+    		default:
+        		userIconClasses += "fa fa-user ";
+		}
+
 		if(this.props.story["selected"]){
 			userIconClasses += "selected";
 		}
-
+		return userIconClasses;	
+	},
+	render(){
 		return (
 			<span onClick={this.handleClick}>
-				<i className={userIconClasses}></i>
+				<i className={this.setSelectorIconClasses()}></i>
 			</span>
 		)
 	}
