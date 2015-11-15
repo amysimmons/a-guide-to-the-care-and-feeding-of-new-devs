@@ -38,7 +38,8 @@ var App = React.createClass({
     return (
       <div className="app-container">
       	<Header/>
-        <Findings/>
+        <Findings
+          storyData={storyData}/>
         <Recommendations/>
       	<StorySelectors 
       		storyData={storyData}
