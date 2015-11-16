@@ -7,7 +7,7 @@ var Header = React.createClass({
     return (
       <div className="header">
       	<h1 className="title">A guide to the care and feeding of new devs</h1>
-      	<p className="byline">By Amy Simmons</p>
+      	<a href="https://twitter.com/amesimmons"><p className="byline">By Amy Simmons</p></a>
       </div>
     )
   }

@@ -5,6 +5,11 @@
 	padding: 10% 10%;
 }
 
+.header a {
+	text-decoration: none;
+	color: #B7F2E1;
+}
+
 .byline {
 	text-align: right;
 	font-size: 1.5em;
