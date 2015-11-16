@@ -9,12 +9,15 @@
 	color: #F2F2F2;
 }
 
+.story-selectors-container {
+	padding: 1%;
+}
+
 .story-selectors-container .fa {
 	font-size: 3em;
-	margin-right: 2%;
-	margin-top: 2%;
-	margin-bottom: 2%; 
-	padding-left: 1%;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%; 
 }
 
 .story-selectors-container .fa.selected{
@@ -29,4 +32,19 @@
 	font-size: 1.2em;
 	width: 100%;
 	padding-left: 1%;
+	padding-top: 1%;
+}
+
+/*mobile*/
+@media screen and (max-width: 767px){
+
+	.stories-container {
+		width: 90%;
+		padding: 5% 5%;
+	}
+
+	.story-selectors-container .fa {
+		font-size: 2.5em;
+		padding: 0.2em;
+	}
 }

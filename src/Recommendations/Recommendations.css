@@ -32,11 +32,16 @@
 
 /*mobile*/
 @media screen and (max-width: 767px){
+	.recommendations-container {
+		width: 90%;
+		padding: 5% 5%;
+	}
+
 	.recommendation {
 		width: 100%;
 		height: auto;
 	}
 	.recommendation .description {
-		font-size: 1.7em;
+		font-size: 1.5em;
 	}
 }

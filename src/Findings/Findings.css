@@ -36,11 +36,16 @@
 
 /*mobile*/
 @media screen and (max-width: 767px){
+	.findings-container {
+		width: 90%;
+		padding: 5% 5%;
+	}
+
 	.finding {
 		width: 100%;
 		height: auto;
 	}
 	.finding .description {
-		font-size: 1.7em;
+		font-size: 1.5em;
 	}
 }

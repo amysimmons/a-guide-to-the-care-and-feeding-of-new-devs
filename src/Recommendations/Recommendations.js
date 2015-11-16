@@ -5,14 +5,15 @@ var Recommendation = React.createClass({
   render(){
     return (
       <div className="recommendation">
-      	<span className="description">{this.props.description}</span>
+      	<span className="description">
+          <p>{this.props.description}</p>
+        </span>
       </div>
     )
   }
 });
 
 var Recommendations = React.createClass({
-
   render(){
     return (
       <div className="recommendations-container">
