@@ -11,9 +11,6 @@
 
 .recommendations-heading h2 {
 	color: #F2F2F2;
-	font-size: 5em;
-	margin: 0;
-	padding: 1%;
 }
 
 .recommendation {
@@ -26,12 +23,20 @@
     box-sizing: border-box;
    	-webkit-box-sizing: border-box;
  	-moz-box-sizing: border-box;
+     vertical-align: top;
 }
 
 .recommendation .description {
 	font-size: 2em;
 }
 
-.recommendation-highlight {
-	font-weight: bold;
+/*mobile*/
+@media screen and (max-width: 767px){
+	.recommendation {
+		width: 100%;
+		height: auto;
+	}
+	.recommendation .description {
+		font-size: 1.7em;
+	}
 }

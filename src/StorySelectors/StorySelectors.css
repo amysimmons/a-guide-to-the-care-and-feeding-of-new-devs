@@ -7,9 +7,6 @@
 
 .stories-heading h2 {
 	color: #F2F2F2;
-	font-size: 5em;
-	margin: 0;
-	padding: 1%;
 }
 
 .story-selectors-container .fa {
@@ -29,6 +26,7 @@
 }
 
 .unread-story-count {
+	font-size: 1.2em;
 	width: 100%;
 	padding-left: 1%;
 }

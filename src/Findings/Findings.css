@@ -11,15 +11,11 @@
 
 .findings-heading h2 {
 	color: #BF0A2F;
-	font-size: 5em;
-	margin: 0;
-	padding: 1%;
 }
 
 .finding {
 	width: 33.33%;
 	height: 300px;
-	vertical-align: top;
 	background-color: #F2F2F2;
 	display: inline-block;
 	color: #BF0A2F;
@@ -27,6 +23,7 @@
     box-sizing: border-box;
    	-webkit-box-sizing: border-box;
  	-moz-box-sizing: border-box;
+ 	vertical-align: top;
 }
 
 .finding .description {
@@ -35,4 +32,15 @@
 
 .finding-highlight {
 	font-weight: bold;
+}
+
+/*mobile*/
+@media screen and (max-width: 767px){
+	.finding {
+		width: 100%;
+		height: auto;
+	}
+	.finding .description {
+		font-size: 1.7em;
+	}
 }
