@@ -34,6 +34,14 @@
 	font-weight: bold;
 }
 
+/*tablet*/
+@media screen and (max-width: 1023px){
+	.finding {
+		width: 100%;
+		height: auto;
+	}
+}
+
 /*mobile*/
 @media screen and (max-width: 767px){
 	.findings-container {
@@ -41,10 +49,6 @@
 		padding: 5% 5%;
 	}
 
-	.finding {
-		width: 100%;
-		height: auto;
-	}
 	.finding .description {
 		font-size: 1.5em;
 	}
