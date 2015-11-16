@@ -57,29 +57,56 @@ var Findings = React.createClass({
       starsNoHighlight.push(<i key={x} className={"fa fa-star"}></i>)
     };
     return (
-      <div className="stars">
-        <div className="highlighted-stars">{starsHighlight}</div>
-        <div className="non-highlighted-stars">{starsNoHighlight}</div>
-      </div>
+      // <div className="stars">
+      //   <div className="highlighted-stars">{starsHighlight}</div>
+      //   <div className="non-highlighted-stars">{starsNoHighlight}</div>
+      // </div>
+      <div>5/10</div>
     )
   },
   findingOneDescription(){
     var averageSupportRating = this.calculateAverageSupportRating();
     return (
       <div>
-        <p>Developers rated their level of support in their first 12 months as {Math.floor(averageSupportRating).toString()}/10.</p>
+        <p>how developers rated their level of support in their first 12 months</p>
       </div>
     )
   },
+  findingTwoVisual(){
+    var betterSupportedPercentage = this.calculatePercentageBetterSupported();    
+    return (
+      <div>{Math.floor(betterSupportedPercentage).toString()}%</div>
+    )
+  },
 
-  findingtwoVisual(){
-    var betterSupportedPercentage = this.calculatePercentageBetterSupported();
+  findingTwoDescription(){
+    var averageSupportRating = this.calculateAverageSupportRating();
+    return (
+      <div>
+        <p>of developers said juniors could be better supported in the workplace</p>
+      </div>
+    )
+  },
+  findingThreeVisual(){
+    return (
+      <div></div>
+    )
+  },
 
+  findingThreeDescription(){
+    return (
+      <div>
+        <p>the top three emotions experienced by junior developers were excited, overwhelmed and frustrated </p>
+      </div>
+    )
   },
   render(){
     var findingOneVisual = this.findingOneVisual();
     var findingOneDescription = this.findingOneDescription();
-    var findingtwoVisual = this.findingtwoVisual();
+    var findingTwoVisual = this.findingTwoVisual();
+    var findingTwoDescription = this.findingTwoDescription();
+    var findingThreeVisual = this.findingThreeVisual();
+    var findingThreeDescription = this.findingThreeDescription();
 
     return (
       <div className="findings-container">
@@ -87,8 +114,8 @@ var Findings = React.createClass({
           <h2>Findings</h2>
         </div>
         <Finding visual={findingOneVisual} description={findingOneDescription}/>
-        <Finding visual={findingtwoVisual}/>
-        <Finding/>
+        <Finding visual={findingTwoVisual} description={findingTwoDescription}/>
+        <Finding visual={findingThreeVisual} description={findingThreeDescription}/>
       </div>
     )
   }
