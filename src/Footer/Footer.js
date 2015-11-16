@@ -9,7 +9,9 @@ var Footer = React.createClass({
 	  	<div className="footer-about-container">
 	  		<div className="footer-about-heading">
 	  			<h2>About the data</h2>
-	  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  			<p>This data was collected via an <a href="https://docs.google.com/forms/d/1Dit-eI7Apd9_PQAK0yIumJVyeNQyOR_zWDH9UxN0fgg/viewform?c=0&w=1">online survey</a> over a two-week period in November 2015.
+	  			The stories are unedited. Overseas responses were not included in the findings, to ensure an accurate portrayal of the Australian tech industry.</p>
+	  	
 	  		</div>
 	  	</div>
 	  	<div className="footer-contact-container">

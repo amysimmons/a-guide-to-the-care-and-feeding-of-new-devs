@@ -22,8 +22,16 @@
 	background-color: #EFBD2F;
 	display: inline-block;
 	color: #F2F2F2;
+    padding: 1%;
+    box-sizing: border-box;
+   	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
 }
 
-/*.recommendation:hover{
-	background-color: #1DBBB4;
-}*/
+.recommendation .description {
+	font-size: 2em;
+}
+
+.recommendation-highlight {
+	font-weight: bold;
+}

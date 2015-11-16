@@ -23,23 +23,16 @@
 	background-color: #F2F2F2;
 	display: inline-block;
 	color: #BF0A2F;
-}
-
-.finding .visual {
+    padding: 1%;
+    box-sizing: border-box;
+   	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
 }
 
 .finding .description {
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
-.finding .fa {
-	font-size: 3em;
-	margin-right: 2%;
-	margin-top: 2%;
-	margin-bottom: 2%; 
-	padding-left: 1%;
-}
-
-.finding .fa:not(.highlight){
-	color: #FFB2A5;
+.finding-highlight {
+	font-weight: bold;
 }

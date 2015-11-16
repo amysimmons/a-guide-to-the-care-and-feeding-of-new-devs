@@ -46,25 +46,25 @@ var Findings = React.createClass({
     return percentage.toFixed(2);
   },
   findingOneDescription(){
-    var averageSupportRating = this.calculateAverageSupportRating();
+    var betterSupportedPercentage = this.calculatePercentageBetterSupported();    
     return (
       <div>
-        <p>developers rated their level of support in their first 12 months as <span className="finding-highlight">{Math.floor(averageSupportRating)}/10</span></p>
+        <p><span className="finding-highlight">{Math.floor(betterSupportedPercentage).toString()}% </span>of developers who responded said juniors could be better supported.</p>
       </div>
     )
   },
   findingTwoDescription(){
-    var betterSupportedPercentage = this.calculatePercentageBetterSupported();    
+    var averageSupportRating = this.calculateAverageSupportRating();
     return (
       <div>
-        <p><span className="finding-highlight">{Math.floor(betterSupportedPercentage).toString()}%</span> of developers said juniors could be better supported in the workplace</p>
+        <p>On average, developers rate the level of support they received as a junior as <span className="finding-highlight">{Math.floor(averageSupportRating)}/10.</span></p>
       </div>
     )
   },
   findingThreeDescription(){
     return (
       <div>
-        <p>the top three emotions experienced by junior developers were <span className="finding-highlight">excited, overwhelmed and frustrated</span></p>
+        <p><span className="finding-highlight">Excited</span>, <span className="finding-highlight">overwhelmed</span> and <span className="finding-highlight">frustrated</span> were the top three emotions felt by junior developers.</p>
       </div>
     )
   },

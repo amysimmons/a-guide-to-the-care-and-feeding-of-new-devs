@@ -5,7 +5,6 @@ var Recommendation = React.createClass({
   render(){
     return (
       <div className="recommendation">
-      	<span className="visual">{this.props.visual}</span>
       	<span className="description">{this.props.description}</span>
       </div>
     )
@@ -20,9 +19,9 @@ var Recommendations = React.createClass({
         <div className="recommendations-heading">
           <h2>Recommendations</h2>
         </div>
-        <Recommendation/>
-        <Recommendation/>
-        <Recommendation/>
+        <Recommendation description={"One on ones with a mentor/buddy"}/>
+        <Recommendation description={"Pair programming & code reviews"}/>
+        <Recommendation description={"Time to learn all the things"}/>
       </div>
     )
   }
