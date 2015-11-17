@@ -9,7 +9,7 @@ var Story = React.createClass({
   	if (story == null) {
   		story = storyData[0];
   	}
-  	console.log(story);
+
   	var YesNoHide = false;
   	var Optional1Hide = false;
   	var Optional2Hide = false;

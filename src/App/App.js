@@ -22,7 +22,6 @@ var App = React.createClass({
   	return require("json!../Data/stories.json");
   },
   selectStory(selectedStory){
-  	console.log(selectedStory)
   	var selectedStory = selectedStory;
     var selectedStories = this.state.selectedStories;
     selectedStories++;
