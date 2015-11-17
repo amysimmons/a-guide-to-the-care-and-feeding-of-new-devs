@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "87db20de398bf30471e4"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "0e482a4bab22a975f71b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -548,7 +548,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("__webpack_require__(1);\n__webpack_require__(59);\n__webpack_require__(61);\n__webpack_require__(61);\n(function webpackMissingModule() { throw new Error(\"Cannot find module \\\"bundle.js\\\"\"); }());\n\n\n/*****************\n ** WEBPACK FOOTER\n ** multi main\n ** module id = 0\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///multi_main?");
+	eval("__webpack_require__(1);\n__webpack_require__(59);\nmodule.exports = __webpack_require__(61);\n\n\n/*****************\n ** WEBPACK FOOTER\n ** multi main\n ** module id = 0\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///multi_main?");
 
 /***/ },
 /* 1 */
@@ -2048,7 +2048,7 @@
 /* 250 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("exports = module.exports = __webpack_require__(234)();\n// imports\n\n\n// module\nexports.push([module.id, \".stories-container {\\n\\twidth: 80%;\\n\\tbackground-color: #1DBBB4;\\n\\tcolor: #F2F2F2;\\n\\tpadding: 10% 10%;\\n}\\n\\n.stories-heading h2 {\\n\\tcolor: #F2F2F2;\\n}\\n\\n.story-selectors-container {\\n\\tpadding: 1%;\\n}\\n\\n.story-selectors-container .fa {\\n\\tfont-size: 3em;\\n\\tmargin-right: 2.5%;\\n\\tmargin-top: 2.5%;\\n\\tmargin-bottom: 2.5%; \\n}\\n\\n.story-selectors-container .fa.selected{\\n\\tcolor: #B7F2E1;\\n\\tcolor: pink;\\n}\\n\\n.story-selectors-container .fa:hover {\\n\\tcolor: #B7F2E1;\\n}\\n\\n.unread-story-count {\\n\\tfont-size: 1.2em;\\n\\twidth: 100%;\\n\\tpadding-left: 1%;\\n\\tpadding-top: 1%;\\n}\\n\\n/*mobile*/\\n@media screen and (max-width: 767px){\\n\\n\\t.stories-container {\\n\\t\\twidth: 90%;\\n\\t\\tpadding: 5% 5%;\\n\\t}\\n\\n\\t.story-selectors-container .fa {\\n\\t\\tfont-size: 2.5em;\\n\\t\\tpadding: 0.2em;\\n\\t}\\n}\", \"\"]);\n\n// exports\n\n\n/*****************\n ** WEBPACK FOOTER\n ** ./~/css-loader!./src/StorySelectors/StorySelectors.css\n ** module id = 250\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/StorySelectors/StorySelectors.css?./~/css-loader");
+	eval("exports = module.exports = __webpack_require__(234)();\n// imports\n\n\n// module\nexports.push([module.id, \".stories-container {\\n\\twidth: 80%;\\n\\tbackground-color: #1DBBB4;\\n\\tcolor: #F2F2F2;\\n\\tpadding: 10% 10%;\\n}\\n\\n.stories-heading h2 {\\n\\tcolor: #F2F2F2;\\n}\\n\\n.story-selectors-container {\\n\\tpadding: 1%;\\n}\\n\\n.story-selectors-container .fa {\\n\\tfont-size: 3em;\\n\\tmargin-right: 2.5%;\\n\\tmargin-top: 2.5%;\\n\\tmargin-bottom: 2.5%; \\n}\\n\\n.story-selectors-container .fa.selected{\\n\\tcolor: #B7F2E1;\\n}\\n\\n.story-selectors-container .fa:hover {\\n\\tcolor: #B7F2E1;\\n}\\n\\n.unread-story-count {\\n\\tfont-size: 1.2em;\\n\\twidth: 100%;\\n\\tpadding-left: 1%;\\n\\tpadding-top: 1%;\\n}\\n\\n/*mobile*/\\n@media screen and (max-width: 767px){\\n\\n\\t.stories-container {\\n\\t\\twidth: 90%;\\n\\t\\tpadding: 5% 5%;\\n\\t}\\n\\n\\t.story-selectors-container .fa {\\n\\t\\tfont-size: 2.5em;\\n\\t\\tpadding: 0.2em;\\n\\t}\\n}\", \"\"]);\n\n// exports\n\n\n/*****************\n ** WEBPACK FOOTER\n ** ./~/css-loader!./src/StorySelectors/StorySelectors.css\n ** module id = 250\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/StorySelectors/StorySelectors.css?./~/css-loader");
 
 /***/ },
 /* 251 */
