@@ -16,7 +16,7 @@ var Selector = React.createClass({
         		userIconClasses += "fa fa-female ";
         		break;
     		default:
-        		userIconClasses += "fa fa-user ";
+        		userIconClasses += "fa fa-genderless ";
 		}
 
 		if(this.props.story["selected"]){
