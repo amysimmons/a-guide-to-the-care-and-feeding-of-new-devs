@@ -17,7 +17,7 @@ var Recommendations = React.createClass({
   recommendationOneDescription(){
     return (
       <div>
-        <p>Weekly <span className="recommendation-highlight">pair programming</span> and <span className="recommendation-highlight">code reviews with a senior</span>.</p>
+        <p>Weekly <span className="recommendation-highlight">pair programming</span> and <span className="recommendation-highlight">code reviews</span> with a senior.</p>
       </div>
     )
   },
