@@ -64,7 +64,7 @@ var Findings = React.createClass({
   findingThreeDescription(){
     return (
       <div>
-        <p><span className="finding-highlight">Excited</span>, <span className="finding-highlight">overwhelmed</span> and <span className="finding-highlight">frustrated</span> were the top three emotions felt by junior developers.</p>
+        <p><span className="finding-highlight">Excited</span>, <span className="finding-highlight">overwhelmed</span>, <span className="finding-highlight">frustrated</span> and <span className="finding-highlight">fear</span> were the top four emotions felt by junior developers.</p>
       </div>
     )
   },
