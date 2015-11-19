@@ -5,8 +5,13 @@
 	padding: 10% 10%;
 }
 
+.stories-heading {
+	background-color: #F2F2F2;
+    margin-bottom: 2%;
+}
+
 .stories-heading h2 {
-	color: #F2F2F2;
+	color: #1DBBB4;
 }
 
 .story-selectors-container {

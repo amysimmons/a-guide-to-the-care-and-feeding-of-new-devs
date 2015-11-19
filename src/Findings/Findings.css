@@ -7,6 +7,7 @@
 
 .findings-heading {
 	background-color: #F2F2F2;
+	margin-bottom: 2%;
 }
 
 .findings-heading h2 {
@@ -15,11 +16,11 @@
 
 .finding {
 	width: 33.33%;
-	height: 300px;
+	height: 350px;
 	background-color: #F2F2F2;
 	display: inline-block;
 	color: #BF0A2F;
-    padding: 1%;
+    padding: 2%;
     box-sizing: border-box;
    	-webkit-box-sizing: border-box;
  	-moz-box-sizing: border-box;

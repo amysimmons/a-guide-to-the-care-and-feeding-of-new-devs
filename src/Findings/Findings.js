@@ -57,7 +57,7 @@ var Findings = React.createClass({
     var averageSupportRating = this.calculateAverageSupportRating();
     return (
       <div>
-        <p>On average, developers rate the level of support they received as a junior as <span className="finding-highlight">{Math.floor(averageSupportRating)}/10.</span></p>
+        <p>On average, developers rated the level of support they received as a junior as <span className="finding-highlight">{Math.floor(averageSupportRating)}/10.</span></p>
       </div>
     )
   },

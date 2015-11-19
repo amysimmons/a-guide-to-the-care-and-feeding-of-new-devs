@@ -17,14 +17,14 @@ var Recommendations = React.createClass({
   recommendationOneDescription(){
     return (
       <div>
-        <p>Weekly one on one <span className="recommendation-highlight">sessions with a senior</span> mentor or buddy.</p>
+        <p>Weekly <span className="recommendation-highlight">pair programming</span> and <span className="recommendation-highlight">code reviews with a senior</span>.</p>
       </div>
     )
   },
   recommendationTwoDescription(){
     return (
       <div>
-        <p>Weekly <span className="recommendation-highlight">pair programming</span> and <span className="recommendation-highlight">code reviews</span>.</p>
+        <p>A <span className="recommendation-highlight">supportive environment</span> where juniors can be vulnerable without fear.</p>
       </div>
     )
   },

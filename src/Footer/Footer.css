@@ -7,14 +7,19 @@
 
 .footer-about-heading {
 	background-color: #F2F2F2;
+	margin-bottom: 2%;
 }
 
 .footer-about-heading h2 {
 	color: #BF0A2F;
 }
 
+.footer-about-content {
+	background-color: #F2F2F2;
+}
+
 .footer-about-container p {
-	padding: 1%;
+	padding: 2%;
 	color: #BF0A2F;
 	font-size: 2em;
 	line-height: 1.5em;
@@ -35,6 +40,7 @@
 
 .footer-contact-heading {
 	background-color: #EFBD2F;
+	margin-bottom: 2%;
 }
 
 .footer-contact-heading h2 {
@@ -45,6 +51,10 @@
 	color: #F2F2F2;
 	font-size: 4em;
 	margin: 2%;
+}
+
+.footer-contact-content {
+	background-color: #EFBD2F;
 }
 
 /*mobile*/
