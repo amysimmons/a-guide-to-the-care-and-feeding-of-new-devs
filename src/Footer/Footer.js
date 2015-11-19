@@ -22,7 +22,7 @@ var Footer = React.createClass({
 	  		</div>
 	  		<div className="footer-contact-content">
 	  			<a href="https://twitter.com/amesimmons"><i className="fa fa-twitter"></i></a>
-				<a href="https://twitter.com/amesimmons"><i className="fa fa-github"></i></a>
+				<a href="https://github.com/amysimmons"><i className="fa fa-github"></i></a>
 	  		</div>
 	  	</div>
   	</div>

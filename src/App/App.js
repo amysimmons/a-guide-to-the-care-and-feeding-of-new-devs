@@ -24,9 +24,12 @@ var App = React.createClass({
   selectStory(selectedStory){
   	var selectedStory = selectedStory;
     var selectedStories = this.state.selectedStories;
-    selectedStories++;
-    selectedStory["selected"] = true;
-  	this.setState({selectedStory:selectedStory, selectedStories:selectedStories});
+
+    if (!selectedStory["selected"]) {
+      selectedStories++;
+      selectedStory["selected"] = true;
+      this.setState({selectedStory:selectedStory, selectedStories:selectedStories});
+    }
   },
   render(){
   	var storyData = this.state.storyData;

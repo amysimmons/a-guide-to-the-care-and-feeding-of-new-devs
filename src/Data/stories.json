@@ -334,5 +334,21 @@
     "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?":"",
     "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?":"",
     "Gender":"M"
+  },
+  {
+    "Timestamp": "11/16/2015 10:30",
+    "What is your name?": "Allen Hsu",
+    "What city do you work in?": "Sydney",
+    "How long have you been a developer for?": "More than 12 months",
+    "Would you classify yourself as a junior, mid-level or senior developer?": "Mid-level",
+    "How would you rate the support that you received in your first 12 months as a developer?": 6,
+    "What three words best describe the emotions you felt in your first 12 months as a developer?": "Overwhelming Meltdown DIsaster",
+    "Could junior developers be better supported in the workplace?": "Yes",
+    "If you answered yes to the above, how?": "Probably no easy answers.\n\nBut from the company perspective:\n- Clear documentation\n- Pair programming\n- Foster an environment for all questions",
+    "What one thing would help you progress faster in your first 12 months as a developer?": "More reading of code",
+    "What's something technical you are embarrassed to admit you don't know?": "How to centre in CSS, any CSS",
+    "Can you recount the worst day of your first 12 months as a developer? What happened, and why was it so bad?": "",
+    "Can you recount the best day of your first 12 months as a developer? What happened, and why was it so good?": "",
+    "Gender": "M"
   }
 ]
