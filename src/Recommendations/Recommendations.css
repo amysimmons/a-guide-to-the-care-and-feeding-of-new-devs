@@ -12,6 +12,8 @@
 
 .recommendations-heading h2 {
 	color: #F2F2F2;
+	word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .recommendation {
