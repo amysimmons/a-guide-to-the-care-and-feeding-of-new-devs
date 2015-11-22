@@ -19,6 +19,7 @@
 }
 
 .story-selectors-container .fa {
+	cursor: pointer;
 	font-size: 3em;
 	margin-right: 2.5%;
 	margin-top: 2.5%;
